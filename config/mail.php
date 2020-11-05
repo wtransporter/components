@@ -107,4 +107,8 @@ return [
         ],
     ],
 
+    'recipient' => [
+        'support' => env('MAIL_SUPPORT_ADDRESS', 'support@example.com'),
+    ],
+
 ];

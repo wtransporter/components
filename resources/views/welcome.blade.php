@@ -24,6 +24,8 @@
     </head>
     <body class="container">
         <livewire:contact-form>
+
+        @include('data-table')
     </body>
     @livewireScripts
 </html>
